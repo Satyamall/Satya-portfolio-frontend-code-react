@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Satya-portfolio-frontend-code-react/static/css/main.d102430e.chunk.css",
+    "main.js": "/Satya-portfolio-frontend-code-react/static/js/main.0f45d4b1.chunk.js",
+    "main.js.map": "/Satya-portfolio-frontend-code-react/static/js/main.0f45d4b1.chunk.js.map",
+    "runtime-main.js": "/Satya-portfolio-frontend-code-react/static/js/runtime-main.00249ad7.js",
+    "runtime-main.js.map": "/Satya-portfolio-frontend-code-react/static/js/runtime-main.00249ad7.js.map",
+    "static/css/2.8b5fe69b.chunk.css": "/Satya-portfolio-frontend-code-react/static/css/2.8b5fe69b.chunk.css",
+    "static/js/2.50ce2f09.chunk.js": "/Satya-portfolio-frontend-code-react/static/js/2.50ce2f09.chunk.js",
+    "static/js/2.50ce2f09.chunk.js.map": "/Satya-portfolio-frontend-code-react/static/js/2.50ce2f09.chunk.js.map",
+    "static/js/3.acdfd1e5.chunk.js": "/Satya-portfolio-frontend-code-react/static/js/3.acdfd1e5.chunk.js",
+    "static/js/3.acdfd1e5.chunk.js.map": "/Satya-portfolio-frontend-code-react/static/js/3.acdfd1e5.chunk.js.map",
+    "index.html": "/Satya-portfolio-frontend-code-react/index.html",
+    "static/css/2.8b5fe69b.chunk.css.map": "/Satya-portfolio-frontend-code-react/static/css/2.8b5fe69b.chunk.css.map",
+    "static/css/main.d102430e.chunk.css.map": "/Satya-portfolio-frontend-code-react/static/css/main.d102430e.chunk.css.map",
+    "static/js/2.50ce2f09.chunk.js.LICENSE.txt": "/Satya-portfolio-frontend-code-react/static/js/2.50ce2f09.chunk.js.LICENSE.txt",
+    "static/media/Satya-Resume-FSWD.fa7f1dc4.pdf": "/Satya-portfolio-frontend-code-react/static/media/Satya-Resume-FSWD.fa7f1dc4.pdf",
+    "static/media/SatyaProfile.a643eddd.gif": "/Satya-portfolio-frontend-code-react/static/media/SatyaProfile.a643eddd.gif",
+    "static/media/Satya_Logo.55cbf4f9.png": "/Satya-portfolio-frontend-code-react/static/media/Satya_Logo.55cbf4f9.png",
+    "static/media/dev.de340bbc.svg": "/Satya-portfolio-frontend-code-react/static/media/dev.de340bbc.svg",
+    "static/media/education.1026e878.png": "/Satya-portfolio-frontend-code-react/static/media/education.1026e878.png",
+    "static/media/experience.7de110c4.png": "/Satya-portfolio-frontend-code-react/static/media/experience.7de110c4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00249ad7.js",
+    "static/css/2.8b5fe69b.chunk.css",
+    "static/js/2.50ce2f09.chunk.js",
+    "static/css/main.d102430e.chunk.css",
+    "static/js/main.0f45d4b1.chunk.js"
+  ]
+}
