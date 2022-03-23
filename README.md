@@ -1,5 +1,6 @@
-## Basry Portfolio Frontend Part
+## Satya Portfolio Frontend Part
 
+View My Portfolio: <a href="https://satya-prakash-mall-portfolio.netlify.app/">Click here</a>
 Dynamic personal website with admin panel which contains educations, experiences, skills, projects, contact fields.
 ## Technologies
 ##### MERN STACK: Mongo DB, ExpressJS, ReactJS, NodeJS.
@@ -23,7 +24,7 @@ Dynamic personal website with admin panel which contains educations, experiences
  * web-vitals
  
 
-## Project Screen Shots
+## Portfolio Pages
 ### Intro
 
 ### About Me
