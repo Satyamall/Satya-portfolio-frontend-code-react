@@ -84,7 +84,7 @@ To Visit App:
 `localhost:3000/` 
 
 ## Notes
-* please note that the application will not work before colone the API express, click [here]() to go to backend repository.
+* please note that the application will not work before colone the API express, click [here](https://github.com/Satyamall/Satya-portfolio-backend-express) to go to backend repository.
 * Change the server IP address in /src/app/serverApi.js  file.
 
 # .env file content:
