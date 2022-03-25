@@ -1,4 +1,7 @@
-## Basry Portfolio Frontend Part
+## Satya Portfolio Frontend Part
+
+View My Portfolio: <a href="https://satya-prakash-mall-portfolio.netlify.app/">Click here</a>
+
 
 Dynamic personal website with admin panel which contains educations, experiences, skills, projects, contact fields.
 ## Technologies
@@ -23,7 +26,7 @@ Dynamic personal website with admin panel which contains educations, experiences
  * web-vitals
  
 
-## Project Screen Shots
+## Portfolio Pages
 ### Intro
 
 ### About Me
@@ -81,7 +84,7 @@ To Visit App:
 `localhost:3000/` 
 
 ## Notes
-* please note that the application will not work before colone the API express, click [here]() to go to backend repository.
+* please note that the application will not work before colone the API express, click [here](https://github.com/Satyamall/Satya-portfolio-backend-express) to go to backend repository.
 * Change the server IP address in /src/app/serverApi.js  file.
 
 # .env file content:
