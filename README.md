@@ -64,7 +64,7 @@ Dynamic personal website with admin panel which contains educations, experiences
  
 
 ## Demo
-Click [Demo]() to go to the demonstration page.
+Click [Demo](https://satya-prakash-mall-portfolio.netlify.app) to go to the demonstration page.
 
 ## Installation and Setup Instructions
 
