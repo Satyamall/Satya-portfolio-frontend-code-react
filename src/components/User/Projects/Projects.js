@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { getprojects } from "../../../actions/projectAction";
 import ModalImage from "react-modal-image";
 import { domainName } from "../../../apis/serverApi";
+import projectimage from "../../../assets/images/project.png"; 
 
 const Projects = ({ reff }) => {
   const projects = useSelector((state) => state.projects);
@@ -19,11 +20,12 @@ const Projects = ({ reff }) => {
         className="col-lg-4 col-12 mb-lg-0 mb-4 mt-lg-5 py-3 shadow-lg bg-white rounded"
       >
         <div className="view overlay rounded z-depth-1">
-          <ModalImage
+          {/* <ModalImage
             small={domainName + proj.projectImage}
             large={domainName + proj.projectImage}
             alt={proj.title}
-          />
+          /> */}
+          <img src={projectimage} alt={proj.title} width="100%" />
         </div>
         <div className="card-body pb-0">
           <h4 className="font-weight-bold ">{proj.title}</h4>

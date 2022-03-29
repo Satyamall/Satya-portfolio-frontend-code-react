@@ -23,7 +23,7 @@ const PageIntro = ({ reff }) => {
                       Full Stack Web Developper
                     </h3>
                     <br />
-                    <a onClick={onResumeClick} style={{ border: "1px solid blue", background: "blue", padding: 10, borderRadius: "5px" }}>
+                    <a onClick={onResumeClick} style={{ border: "1px solid blue", background: "blue", padding: 10, borderRadius: "5px", cursor:"pointer" }}>
                       See My Resume
                     </a>
                     <hr className=" my-4 text-light" />
