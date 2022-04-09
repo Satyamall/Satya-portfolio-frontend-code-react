@@ -16,7 +16,7 @@ const Projects = ({ reff }) => {
     return (
       <div
         key={proj._id}
-        className="col-lg-4 col-12 mb-lg-0 mb-4 mt-lg-5 py-3 shadow-lg bg-white rounded"
+        className="col-lg-5 col-12 mb-lg-0 mb-4 mt-lg-5 py-3 shadow-lg bg-white rounded"
       >
         <div className="view overlay rounded z-depth-1">
           <ModalImage
@@ -72,12 +72,12 @@ const Projects = ({ reff }) => {
       id="projects"
       ref={reff}
       className="text-center py-5"
-      style={{ backgroundColor: "#fff" }}
+      style={{ backgroundColor: "#fff"}}
     >
       <div className="container">
         <h2 className="h1-responsive font-weight-bold mb-5">Projects</h2>
 
-        <div className="row text-center d-inline-flex">{project}</div>
+        <div className="row text-center d-inline-flex gap-5 justify-content-md-center">{project}</div>
       </div>
     </section>
   );
