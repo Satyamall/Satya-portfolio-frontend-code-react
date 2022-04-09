@@ -3,6 +3,8 @@ import experienceImage from "../../../assets/images/experience.png";
 import { useSelector, useDispatch } from "react-redux";
 import { getExperiences } from "../../../actions/experienceAction";
 import moment from "moment";
+import ModalImage from "react-modal-image";
+import { domainName } from "../../../apis/serverApi"; 
 
 const Experience = ({ reff }) => {
   const experiences = useSelector((state) => state.experiences);
@@ -13,6 +15,10 @@ const Experience = ({ reff }) => {
   }, [dispatch]);
 
   const experience = experiences.map((exp) => {
+    const onResumeClick = (pdf) => {
+      window.open(pdf)
+    }
+
     return (
       <div key={exp._id} className="col-lg-12">
         <div className="row">
@@ -20,7 +26,7 @@ const Experience = ({ reff }) => {
             <p className="fw-bold mb-2" style={{ fontSize: "19px" }}>
               {exp.title}
             </p>
-            <p className="mb-3 text-primary" style={{ fontSize: "14px" }}>
+            <p className="mb-3" style={{ fontSize: "14px", fontWeight: "500" }}>
               {exp.company}, {exp.city}
             </p>
             <p className="grey-text" style={{ fontSize: "13px" }}>
@@ -44,6 +50,16 @@ const Experience = ({ reff }) => {
               {" "}
               {exp.technologies}
             </p>
+            <div>
+            <a
+              className="btn btn-primary btn-sm shadow-none mb-0"
+              target="_blank"
+              rel="noreferrer"
+              onClick={()=>onResumeClick(exp.link)}
+            >
+              <i className="fa fa-clone left"></i> View certificate
+            </a>
+            </div>
             <hr className="mb-4" />
           </div>
         </div>
@@ -60,7 +76,7 @@ const Experience = ({ reff }) => {
     >
       <div className="container">
         <h2 className="h1-responsive font-weight-bold text-center mb-5">
-          Experience
+          Certifications
         </h2>
 
         <div className="row">

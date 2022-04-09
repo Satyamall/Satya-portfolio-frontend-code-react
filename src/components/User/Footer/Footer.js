@@ -12,7 +12,7 @@ const Footer = ({ onLinkClick }) => {
               Satya Prakash Mall
             </h5>
             <p className="sub-title">
-              I am a Full Stack Web Developer. Aspiring Full Stack Web Developement at coding bootcamp Masai School. Also I am an engineering student in the final year of Computer Science and Engineering at Rajkiya Engineering College Sonbhadra, U.P. Through my university studies, I acquired strong skills in the field of software engineering. Motivated, I know how to adapt, I have a sense of responsibility and organization.
+              I am a Full Stack Web Developer. Aspiring Full Stack Web Developement at coding bootcamp Masai School. Also I am an engineering student in the final year of Computer Science and Engineering at Rajkiya Engineering College Sonbhadra, U.P. 
             </p>
           </div>
 
@@ -70,7 +70,7 @@ const Footer = ({ onLinkClick }) => {
             </h5>
             <p>Kushinagar, U.P., 274402</p>
             <p>thesatyamall123@gmail.com</p>
-            <p>+91 8953892687</p>
+            <p>+91 8953802687</p>
           </div>
         </div>
 

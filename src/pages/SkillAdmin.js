@@ -29,8 +29,8 @@ const SkillAdmin = () => {
           idModalEdit="editSkill"
           onEditClick={onEditClick}
           title="Skill"
-          headerText={["Name", "Level"]}
-          headerProprities={["type", "level"]}
+          headerText={["Name", "Logo"]}
+          headerProprities={["type", "logo"]}
           tableData={skills}
         />
       </div>

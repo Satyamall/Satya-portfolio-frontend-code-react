@@ -27,10 +27,34 @@ function Table({
                   width="150px"
                 />
               )}
+              {prop === "logo" && (
+                <img
+                  src={domainName + data[prop]}
+                  alt="skill"
+                  width="150px"
+                />
+              )}
+              {prop === "collegelogo" && (
+                <img
+                  src={domainName + data[prop]}
+                  alt="college logo"
+                  width="150px"
+                />
+              )}
+              {prop === "certificateImage" && (
+                <img
+                  src={domainName + data[prop]}
+                  alt="certificate"
+                  width="150px"
+                />
+              )}
               {!(
                 prop === "startDate" ||
                 prop === "endDate" ||
-                prop === "projectImage"
+                prop === "projectImage" ||
+                prop === "logo" ||
+                prop === "collegelogo" ||
+                prop === "certificateImage"
               ) && data[prop]}
             </td>
           );

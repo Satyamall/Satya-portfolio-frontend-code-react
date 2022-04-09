@@ -77,7 +77,7 @@ const Navbar = ({ onLinkClick }) => {
                 to="/"
                 data-offset="90"
               >
-                Experience
+                Certifications
               </Link>
             </li>
             <li className="nav-item">

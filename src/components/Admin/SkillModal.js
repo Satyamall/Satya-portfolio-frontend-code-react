@@ -16,6 +16,8 @@ const SkillModal = ({ id, header, skil, submitValue, colorButton }) => {
     if (id === "editSkill") {
       setValue("type", skil.type);
       setValue("level", skil.level);
+      setValue("logo", skil.logo);
+      setValue("link", skil.link);
     }
   }, [skil, id, setValue]);
 
@@ -73,14 +75,28 @@ const SkillModal = ({ id, header, skil, submitValue, colorButton }) => {
                         <div className="col-md-12">
                           <div className="md-form mb-0">
                             <label htmlFor="level" className="">
-                              Level
+                              Logo Link
                             </label>
                             <input
                               type="text"
-                              id="level"
-                              name="level"
+                              id="logo"
+                              name="logo"
                               className="form-control shadow-none"
-                              {...register("level")}
+                              {...register("logo")}
+                            />
+                          </div>
+                        </div>
+                        <div className="col-md-12">
+                          <div className="md-form mb-0">
+                            <label htmlFor="level" className="">
+                              Link
+                            </label>
+                            <input
+                              type="text"
+                              id="link"
+                              name="link"
+                              className="form-control shadow-none"
+                              {...register("link")}
                             />
                           </div>
                         </div>

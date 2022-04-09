@@ -19,7 +19,7 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Experiences",
+    title: "Certifications",
     path: "/experience",
     icon: <FcIcons.FcBusiness />,
     cName: "nav-text",

@@ -12,6 +12,7 @@ function ProjectAdmin() {
     description: "",
     technologies: "",
     link: "",
+    githublink: "",
     projectImage: "",
   });
 

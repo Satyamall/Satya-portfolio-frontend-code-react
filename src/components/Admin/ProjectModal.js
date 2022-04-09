@@ -14,6 +14,7 @@ const ProjectModal = ({ id, header, proj, submitValue, colorButton }) => {
       setValue("technologies", proj.technologies);
       setValue("haveLink", proj.haveLink);
       setValue("link", proj.link);
+      setValue("githublink", proj.githublink);
     }
   }, [proj, id, setValue]);
 
@@ -24,6 +25,7 @@ const ProjectModal = ({ id, header, proj, submitValue, colorButton }) => {
     formData.append("technologies", data.technologies);
     formData.append("haveLink", data.haveLink);
     formData.append("link", data.link);
+    formData.append("githublink", data.githublink);
     formData.append("projectImage", data.projectImage[0]);
     if (id === "editProject") {
       dispatch(updateProject(proj._id, formData));
@@ -133,6 +135,20 @@ const ProjectModal = ({ id, header, proj, submitValue, colorButton }) => {
                               name="link"
                               className="form-control shadow-none"
                               {...register("link")}
+                            />
+                          </div>
+                        </div>
+                        <div className="col-md-12">
+                          <div className="md-form mb-0">
+                            <label htmlFor="link" className="">
+                              GitHub Link
+                            </label>
+                            <input
+                              type="text"
+                              id="link"
+                              name="link"
+                              className="form-control shadow-none"
+                              {...register("githublink")}
                             />
                           </div>
                         </div>

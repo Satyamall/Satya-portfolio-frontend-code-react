@@ -11,11 +11,11 @@
   animation: move 2.5s ease-in-out infinite;
 }
 
-.icons-color {
+.icon-color {
   color: black;
 }
 
-.icons-color:hover {
+.icon-color:hover {
   color: red;
 }
 

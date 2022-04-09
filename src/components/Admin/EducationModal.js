@@ -16,6 +16,7 @@ const EducationModal = ({ id, header, edu, submitValue, colorButton }) => {
       setValue("title", edu.title);
       setValue("school", edu.school);
       setValue("city", edu.city);
+      setValue("collegelogo", edu.collegelogo);
       setStartDate(Date.parse(edu.startDate));
       setStartDate(Date.parse(edu.endDate));
     }
@@ -99,6 +100,20 @@ const EducationModal = ({ id, header, edu, submitValue, colorButton }) => {
                               name="city"
                               className="form-control shadow-none"
                               {...register("city")}
+                            />
+                          </div>
+                        </div>
+                        <div className="col-md-12">
+                          <div className="md-form mb-0">
+                            <label htmlFor="city" className="">
+                             College Logo
+                            </label>
+                            <input
+                              type="text"
+                              id="logo"
+                              name="logo"
+                              className="form-control shadow-none"
+                              {...register("collegelogo")}
                             />
                           </div>
                         </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import "./styles.css";
 import homeImage from "../../../assets/images/dev.svg";
-import Pdf from "../../../assets/Satya-Resume-FSWD.pdf";
+// import Pdf from "../../../assets/Satya-Resume-FSWD.pdf";
 const onResumeClick = () => {
-  window.open(Pdf)
+  window.open("https://drive.google.com/file/d/1Q_wntB2cGf7jRiUyts0wg346IOsvBzvc/view?usp=sharing")
 }
 
 const PageIntro = ({ reff }) => {
@@ -37,7 +37,7 @@ const PageIntro = ({ reff }) => {
                             className="btn-floating btn-sm text-white"
                             style={{ fontSize: "23px" }}
                           >
-                            <i className="fab fa-facebook-f icons-color"></i>
+                            <i className="fab fa-facebook-f icon-color"></i>
                           </a>
                         </li>
                         <li className="list-inline-item">
@@ -48,7 +48,7 @@ const PageIntro = ({ reff }) => {
                             className="btn-floating btn-sm text-white"
                             style={{ fontSize: "23px" }}
                           >
-                            <i className="fab fa-twitter icons-color"></i>
+                            <i className="fab fa-twitter icon-color"></i>
                           </a>
                         </li>
                         <li className="list-inline-item">
@@ -59,7 +59,7 @@ const PageIntro = ({ reff }) => {
                             className="btn-floating btn-sm text-white"
                             style={{ fontSize: "23px" }}
                           >
-                            <i className="fab fa-linkedin-in icons-color"></i>
+                            <i className="fab fa-linkedin-in icon-color"></i>
                           </a>
                         </li>
                         <li className="list-inline-item">
@@ -70,7 +70,7 @@ const PageIntro = ({ reff }) => {
                             className="btn-floating btn-sm text-white"
                             style={{ fontSize: "23px" }}
                           >
-                            <i className="fab fa-github icons-color"></i>
+                            <i className="fab fa-github icon-color"></i>
                           </a>
                         </li>
                         <li className="list-inline-item">
@@ -81,7 +81,7 @@ const PageIntro = ({ reff }) => {
                             className="btn-floating btn-sm text-white"
                             style={{ fontSize: "23px" }}
                           >
-                            <i className="fa-regular fa-envelope icons-color"></i>
+                            <i className="fa-regular fa-envelope icon-color"></i>
                           </a>
                         </li>
                       </ul>

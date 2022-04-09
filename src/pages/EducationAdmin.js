@@ -13,6 +13,7 @@ function EducationAdmin() {
     city: "",
     startDate: "",
     endDate: "",
+    logo: "",
   });
 
   const ondelteClick = (education) => {
@@ -31,8 +32,8 @@ function EducationAdmin() {
         idModalAdd="addEducation"
         idModalEdit="editEducation"
         title="Education"
-        headerText={["Title", "School", "City", "Start Date", "End Date"]}
-        headerProprities={["title", "school", "city", "startDate", "endDate"]}
+        headerText={["Title", "School", "City", "Start Date", "End Date", "College Logo"]}
+        headerProprities={["title", "school", "city", "startDate", "endDate", "collegelogo"]}
         tableData={educations}
       />
 

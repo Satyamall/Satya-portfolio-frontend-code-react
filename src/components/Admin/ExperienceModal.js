@@ -23,6 +23,7 @@ const ExperienceModal = ({ id, header, exp, submitValue, colorButton }) => {
       setEndDate(Date.parse(exp.endDate));
       setValue("description", exp.description);
       setValue("technologies", exp.technologies);
+      setValue("link", exp.link);
     }
   }, [exp, id, setValue]);
 
@@ -153,6 +154,20 @@ const ExperienceModal = ({ id, header, exp, submitValue, colorButton }) => {
                               name="technologies"
                               className="form-control shadow-none"
                               {...register("technologies")}
+                            />
+                          </div>
+                        </div>
+                        <div className="col-md-12">
+                          <div className="md-form mb-0">
+                            <label htmlFor="link" className="">
+                              Link
+                            </label>
+                            <input
+                              type="text"
+                              id="link"
+                              name="link"
+                              className="form-control shadow-none"
+                              {...register("link")}
                             />
                           </div>
                         </div>

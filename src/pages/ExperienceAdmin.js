@@ -15,6 +15,7 @@ const ExperienceAdmin = () => {
     endDate: "",
     description: "",
     technologies: "",
+    link: "",
   });
 
   const ondelteClick = (experience) => {
@@ -33,7 +34,7 @@ const ExperienceAdmin = () => {
           idModalAdd="addExperience"
           idModalEdit="editExperience"
           onEditClick={onEditClick}
-          title="Experience"
+          title="Certifications"
           headerText={[
             "Title",
             "Company",
@@ -59,14 +60,14 @@ const ExperienceAdmin = () => {
         id="addExperience"
         header="Add Experience"
         exp={selectedExperience}
-        submitValue="Add Experience"
+        submitValue="Add Certificate"
         colorButton="success"
       />
       <ExperienceModal
         id="editExperience"
         header="Edit Experience"
         exp={selectedExperience}
-        submitValue="Edit Experirnce"
+        submitValue="Edit Certificate"
         colorButton="warning"
       />
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../../../assets/images/SatyaProfile.gif";
+import profile from "../../../assets/images/SatyaProfile.jpg";
 import "./About.css";
 
 const About = ({ reff }) => {
@@ -17,7 +17,7 @@ const About = ({ reff }) => {
 
         <div className="row">
           <div className="col-12 col-lg-4">
-            <img className="d-block mx-auto mb-4" src={profile} alt="Satya" />
+            <img className="d-block mx-auto mb-4 imgprofile" src={profile} alt="Satya" />
           </div>
           <div className="col-lg-8">
             <p className="text-font text-justify">
@@ -28,7 +28,7 @@ const About = ({ reff }) => {
               the field of software engineering.
               <br /> Motivated, I know how to adapt, I have a sense of
               responsibility and organization.
-              <br />My hobbies are Web Developing, watching movies, cricket and listening to music.
+              <br />My hobbies are Web Developing, Chess, watching movies, cricket and listening to music.
             </p>
           </div>
         </div>

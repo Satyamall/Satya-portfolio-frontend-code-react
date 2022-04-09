@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { getprojects } from "../../../actions/projectAction";
 import ModalImage from "react-modal-image";
-import { domainName } from "../../../apis/serverApi";
-import projectimage from "../../../assets/images/project.png"; 
+import { domainName } from "../../../apis/serverApi"; 
 
 const Projects = ({ reff }) => {
   const projects = useSelector((state) => state.projects);
@@ -20,27 +19,27 @@ const Projects = ({ reff }) => {
         className="col-lg-4 col-12 mb-lg-0 mb-4 mt-lg-5 py-3 shadow-lg bg-white rounded"
       >
         <div className="view overlay rounded z-depth-1">
-          {/* <ModalImage
+          <ModalImage
             small={domainName + proj.projectImage}
             large={domainName + proj.projectImage}
             alt={proj.title}
-          /> */}
-          <img src={projectimage} alt={proj.title} width="100%" />
+          />
         </div>
         <div className="card-body pb-0">
-          <h4 className="font-weight-bold ">{proj.title}</h4>
-          <p className="grey-text">{proj.description}</p>
+          <h5 className="font-weight-bold ">{proj.title}</h5>
+          <p className="grey-text" style={{height: "90px", marginTop: "20px", fontSize: "14px"}}>{proj.description}</p>
           <p
             className=" fw-bold"
             style={{
-              fontSize: "14px",
+              fontSize: "16px",
               color: "#55107E",
               display: "inline",
             }}
           >
             Technologies:
           </p>
-          <p style={{ fontSize: "12px" }}> {proj.technologies}</p>
+          <p style={{ fontSize: "15px", color: "gray", fontWeight: "500", height:"50px"}}> {proj.technologies}</p>
+          <div>
           {proj.haveLink && (
             <a
               className="btn btn-primary btn-sm shadow-none mb-0"
@@ -48,9 +47,21 @@ const Projects = ({ reff }) => {
               rel="noreferrer"
               href={proj.link}
             >
-              <i className="fa fa-clone left"></i> View project
+              <i className="fa fa-globe left"></i> View project
             </a>
           )}
+          { " "}
+          {proj.haveLink && (
+            <a
+              className="btn btn-primary btn-sm shadow-none mb-0"
+              target="_blank"
+              rel="noreferrer"
+              href={proj.githublink}
+            >
+              <i className="fab fa-github left"></i> View Source Code
+            </a>
+          )}
+          </div>
         </div>
       </div>
     );
