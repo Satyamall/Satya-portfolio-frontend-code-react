@@ -17,7 +17,13 @@ const PageIntro = ({ reff }) => {
                 <div className="row">
                   <div className="col-md-12 mb-4  text-center">
                     <h3
-                      className="display-3 fw-bold   pt-md-5 pt-5"
+                      className="display-4 fw-bold   pt-md-5 pt-5"
+                      style={{ color: "black" }}
+                    >
+                      Satya Prakash Mall
+                    </h3>
+                    <h3
+                      className="display-4 fw-bold   pt-md-3 pt-5"
                       style={{ color: "#2A083F" }}
                     >
                       Full Stack Web Developper
